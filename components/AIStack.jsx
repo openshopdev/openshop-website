@@ -24,8 +24,8 @@ export default function AIStack() {
             See it in action
             <span aria-hidden="true">›</span>
           </a>
-          <a href="#connect" className="text-button muted-link">
-            Connect Shopify
+          <a href="https://github.com/openshopdev/openshop/releases/latest" target="_blank" rel="noopener noreferrer" className="text-button muted-link">
+            Install now
             <span aria-hidden="true">›</span>
           </a>
         </div>

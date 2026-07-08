@@ -10,9 +10,9 @@ export default function FinalCta() {
           refunds, email, and creative, handled.
         </p>
       </div>
-      <a href="#" className="primary-button">
+      <a href="https://github.com/openshopdev/openshop/releases/latest" target="_blank" rel="noopener noreferrer" className="primary-button">
         <ShoppingBag size={24} strokeWidth={2.2} aria-hidden="true" />
-        Connect Shopify
+        Install now
       </a>
     </section>
   );

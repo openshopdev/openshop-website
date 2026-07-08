@@ -39,9 +39,9 @@ export default function PricingTeaser() {
       </div>
 
       <div className="section-actions">
-        <a href="#connect" className="primary-button">
+        <a href="https://github.com/openshopdev/openshop/releases/latest" target="_blank" rel="noopener noreferrer" className="primary-button">
           <ShoppingBag size={22} strokeWidth={2.1} aria-hidden="true" />
-          Connect Shopify
+          Install now
         </a>
       </div>
     </section>

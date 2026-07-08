@@ -74,9 +74,9 @@ export default function Hero() {
           focus on growth.
         </p>
         <div className="hero-actions">
-          <a href="#connect" className="primary-button">
+          <a href="https://github.com/openshopdev/openshop/releases/latest" target="_blank" rel="noopener noreferrer" className="primary-button">
             <ShoppingBag size={24} strokeWidth={2.2} aria-hidden="true" />
-            Connect Shopify
+            Install now
           </a>
           <a href="#watch" className="text-button">
             See what it can do

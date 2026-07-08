@@ -23,7 +23,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        <a href="#connect" className="nav-cta">Connect Shopify</a>
+        <a href="https://github.com/openshopdev/openshop/releases/latest" target="_blank" rel="noopener noreferrer" className="nav-cta">Install now</a>
 
         <details className="mobile-nav">
           <summary className="nav-menu-button" aria-label="Open menu">
@@ -36,8 +36,8 @@ export default function Navbar() {
                 {item.label}
               </a>
             ))}
-            <a href="#connect" className="mobile-cta">
-              Connect Shopify
+            <a href="https://github.com/openshopdev/openshop/releases/latest" target="_blank" rel="noopener noreferrer" className="mobile-cta">
+              Install now
             </a>
           </div>
         </details>
