@@ -26,3 +26,6 @@ yarn-error.log*
 
 # internal planning docs / reference assets — not for the public repo
 /internal
+
+# stray brand assets — not used by the site
+/brand/
