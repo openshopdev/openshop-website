@@ -23,3 +23,6 @@ yarn-error.log*
 
 # heatbird
 .heatbird
+
+# internal planning docs / reference assets — not for the public repo
+/internal
