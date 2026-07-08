@@ -225,7 +225,7 @@ button {
   flex-direction: column;
   min-height: calc(100vh - 156px);
   min-height: calc(100svh - 156px);
-  padding: 48px 0 12px;
+  padding: clamp(24px, 6vh, 96px) 0 12px;
   position: relative;
 }
 
@@ -259,7 +259,7 @@ button {
   color: var(--color-ink);
   font-size: 22px;
   line-height: 1.52;
-  margin: 24px auto 0;
+  margin: 8px auto 0;
   max-width: 650px;
 }
 
@@ -1631,10 +1631,6 @@ button {
 }
 
 @media (min-width: 1200px) and (min-height: 821px) {
-  .hero {
-    padding-top: 112px;
-  }
-
   .hero-visual {
     height: min(280px, 28svh);
     margin-top: -28px;
@@ -1650,7 +1646,6 @@ button {
   .hero {
     min-height: calc(100vh - 150px);
     min-height: calc(100svh - 150px);
-    padding-top: 42px;
   }
 
   .hero h1 {
@@ -1659,7 +1654,6 @@ button {
 
   .hero p {
     font-size: 20px;
-    margin-top: 20px;
   }
 
   .hero-actions {
@@ -1687,7 +1681,6 @@ button {
   .hero {
     min-height: calc(100vh - 144px);
     min-height: calc(100svh - 144px);
-    padding-top: 26px;
   }
 
   .hero h1 {
@@ -1696,7 +1689,6 @@ button {
 
   .hero p {
     font-size: 18px;
-    margin-top: 16px;
     max-width: 600px;
   }
 
@@ -1721,10 +1713,6 @@ button {
 }
 
 @media (min-width: 1200px) and (max-height: 820px) {
-  .hero {
-    padding-top: 104px;
-  }
-
   .hero-visual {
     --tile-scale: 0.68;
     height: 190px;
@@ -1786,7 +1774,6 @@ button {
   .hero {
     min-height: calc(100vh - 132px);
     min-height: calc(100svh - 132px);
-    padding-top: 56px;
   }
 
   .hero h1 {
@@ -1954,7 +1941,6 @@ button {
 
   .hero p {
     font-size: 17px;
-    margin-top: 22px;
     max-width: 330px;
   }
 
@@ -2156,7 +2142,6 @@ button {
   .hero {
     min-height: calc(100vh - 124px);
     min-height: calc(100svh - 124px);
-    padding-top: 30px;
   }
 
   .hero h1 {
@@ -2167,7 +2152,6 @@ button {
   .hero p {
     font-size: 16px;
     line-height: 1.45;
-    margin-top: 16px;
     max-width: 310px;
   }
 
